@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pseudo Selector</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		a{
+			font-size: 20px;
+		}
+		a:hover {
+			color: red;
+		}
+		a:visited {
+			color: yellow;
+		}
+		a:active {
+			color: green;
+		}
+
+		/*changing textbox with color*/
+		input[name="hello"]:focus {
+			background-color: brown;
+		}
+		li:first-child {
+			color: red;
+		}
+		li:last-child{
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<a href="https://www.google.com">Google</a>
+	<a href="https://www.instagram.com">Instagram</a>
+	<input type="" name="hello">
+	<ul>
+		<li>Apple</li>
+		<li>Dell</li>
+		<li>Acer</li>
+	</ul>
+</body>
+</html>

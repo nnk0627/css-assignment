@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#menu {
+	background-color: #C34040 ;
+	text-align: center;
+	padding: 15px;
+
+}
+
+#menu ul li{
+	display: inline;
+
+}
+
+#menu ul li a {
+	text-decoration: none;
+	color:#ffffff;
+	font-size: 20px;
+	padding: 0 20px;
+}
+
+#menu ul li a:hover {
+	color: #d89959;
+}
+
+h2{
+	padding: 20px;
+	text-align: center;
+}
+
+span {
+	color: orange;
+	font-size: 16px;
+}
+
+#movie {
+	text-align: center;
+	padding: 20px;
+	font-size: 15px;
+}
+
+#movie_img {
+	width: 32%;
+	float: left;
+	padding-top: 20px;
+	padding-left: 70px;
+	
+}
+
+#movie_img img {
+	width: 300px;
+	height: 320px;
+}
+
+#movie_desc {
+	width: 52%;
+	float: left;
+	text-align: left;
+	padding-top: 15px;
+	padding-left: 100px;
+}
+
+#btn {
+	font-size: 20px;
+	border: 1px solid #d89959;
+	padding: 5px 20px;
+	border-radius: 30px;
+	margin: 10px auto;
+    display: block;
+    background-color: #C34040;
+    color:#ffffff;
+ 	
+}
+
+#overview {
+	padding: 20px;
+	clear: both;
+	position: relative;
+	text-align: left;
+}
+
+#director_img {
+	width: 40%;
+	float: left;
+	padding-top: 20px;
+	padding-left: 70px;
+	
+}
+
+#director_img img {
+	width: 240px;
+	height: 240px;
+}
+
+#director p {
+	width: 40%;
+	float: left;
+	text-align: left;
+	padding-top: 15px;
+	padding-left: 100px;
+}
+
+
+#contact {
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	font-size: 15px;
+}
+
+
+#contactinfo {
+	width: 40%;
+	float: left;
+	padding: 20px 0 0 70px;
+	text-align: left;
+	
+}
+
+#comment {
+	width: 40%;
+	float: left;
+	text-align: left;
+	padding: 15px 0 15px 100px;
+	
+}
+
+input[name="Email"]:focus {
+			background-color:#fbdfb6;
+		}
+
+#inputemail {
+	padding: 10px;
+	margin-top: 15px;
+ 	margin-bottom: 15px;
+}
+
+#sometext {
+	padding: 10px;
+	margin: 10px 0;
+}
+
+#footer {
+	clear: both;
+	padding: 15px;
+	background-color:#c34040;
+	color: #f0e9bf;
+	text-align: center;
+}
+
+strong {
+	color: orange;
+}

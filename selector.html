@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Selector</title>
+	<style type="text/css">
+		h1{
+			font-size: 15px;
+		}
+		h1,p,a,span {
+			background-color: orange;
+			font-family: Arial;
+			color: #ffffff;
+			font-size: 20px;
+			margin: 0;
+			padding: 0;
+		}
+		#para1{
+			color: brown;
+		}
+		.clas{
+			color: green;
+		}
+		p[title="para"]{
+			font-size: 20px;
+			color: red;
+		}
+		/*descendant Selector*/
+		p a{
+				color: yellow;
+		}
+		/*Child Selector*/
+		p>a{
+				color: blue;
+		}
+	</style>
+</head>
+<body>
+	<h1>Hello  Japanese BootCamper!</h1>
+	<p id="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit,do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimveniam,quis nostrud <span class="clas">exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in </span>reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<p id="para2" class="clas">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<h1 class="clas">Good Morning</h1>
+	<h1 class="clas">Hello CSS Lessson</h1>
+	<h1 class="clas">Hello Everyone</h1>
+	<p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+	<p title="para">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+	<p title="para">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+	<p>Lorem ipsum dolor sit amet, <a>consectetur adipisicing elit,do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimveniam,quis nostrud</a> <span ><a href="">exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in </a></span>reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+</html>
