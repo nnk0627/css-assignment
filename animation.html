@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animation</title>
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<style type="text/css">
+		div {
+			width: 100px;
+			height: 100px;
+			position: relative;
+			background-color: red; 
+			}/*position: fixed,static Not Work*/
+			/**/
+			/*animation-name: animate1;
+			animation-duration: 4s; /*default 0s*/
+			/*animation-delay: 1s;*/*/
+			/*animation-iteration-count: 3;*/
+			/*animation-iteration-count: infinite;
+			animation-direction: normal;*/
+			/*animation-direction: reverse;*/
+			/*animation-direction: alternate;*//*normal reverse*/
+			/*animation-direction: alternate-reverse;*//*normal reverse reverse*/
+			/*animation: animate1 4s 1s 3 alternate;*/
+	
+
+		@keyframes animate1 {
+
+			/*from*/ 0%{ background-color: red; left: 0px;top: 0;}
+					25%{background-color: blue; left: 200px; top: 0;}
+					50% {background-color: green;left: 200px; top: 200px;}
+					75% {background-color: brown; left:0; top: 200px;}
+			/*to*/ 	100%{background-color: yellow; left: 0; top: 0;}
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="animated bounceInDown"></div>
+
+</body>
+</html>

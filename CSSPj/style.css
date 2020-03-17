@@ -1,0 +1,190 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#menu {
+	background-color:#95e6cc;
+	box-shadow: 0 0 50px #81f6fc;
+}
+
+#logo {
+	display: inline-block;
+}
+
+#logo img {
+	width: 60px;
+	height: 80px;
+	padding-top: 20px;
+	padding-left: 70px;
+}
+
+.logo_title {
+	display: inline-block;
+	font-size:25px;
+	color: white;
+	padding-bottom: 20px;
+	font-family: pacifico;
+}
+
+@font-face {
+	font-family: "pacifico";
+	src:url("font/Pacifico/Pacifico-Regular.ttf");
+}
+
+#menu ul {
+	float: right;
+	padding: 25px 50px;
+
+
+}
+#menu ul li {
+	display: inline-block;
+
+}
+#menu ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 0 10px;
+	display: inline-block;
+	transition: transform .3s ease-out;
+
+}
+
+#menu ul li a:hover {
+	color: #fcf681;
+	transform: translate(0,-4px);
+}
+
+.clear {
+	clear:both;
+}
+
+#banner {
+	max-width: 50%;
+	margin-left: 25%;
+}
+
+#banner img{
+	width: 100%;
+	margin-top: 25px;
+}
+
+.title {
+	max-width: 50%;
+	font-size: 15px;
+	margin-left: 25%;
+	margin-top: 30px;
+
+}
+
+.title .title_text {
+	text-align: center;
+}
+
+.title .outline{
+	max-width: 50%;
+	margin: 0 25%;
+	height: 1px;
+	background-color: black;
+}
+
+.card_box:after{
+	max-width: 50%;
+	clear: both;      
+}
+
+.card_box{
+	margin-left: 18%;  
+
+}
+.card_box .box {
+	max-width: 35%;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	float: left;
+	margin-left: 40px;
+	box-shadow: 0 0 8px 10px  #b3b2ab;	
+	
+}
+
+.card_box .box img {
+		width: 225px;
+		height: 220px;
+		padding-bottom: 5px;
+}
+
+@font-face{
+			font-family: 'Sintony', sans-serif;
+			src:url(font/Sintony/Sintony-Bold.ttf);
+		}
+h4 {
+	text-align: center;
+	font-family: 'Sintony', sans-serif;
+	font-size: 12px;
+	}
+
+.rating {
+	padding-top: 5px;
+	text-align: center;
+	color:#fcec03;
+	}
+
+.buy_btn {
+	width: 225px;
+	border: none;
+	margin-top: 5px;
+	padding: 8px 0;
+	background-color: #76448a; 
+	color: #fdfefe;
+	font-size: 15px;
+
+}
+
+.shop{
+	margin-left: 18%;  
+	margin-top: 25px;
+}
+
+.about_shop {
+  float: left;
+  width: 25%;
+  margin-left: 35px;
+  margin-top: 25px;
+  height: 300px; 
+
+}
+
+.about_shop img{
+  width: 100%;
+  height: 60%;
+  box-shadow: 0 0 8px 10px  #b3b2ab;
+  
+}
+
+.shop:after {
+  	max-width: 50%;
+	clear: both;   
+}
+
+.footer {
+	clear: both;
+	margin-top: 30px;
+	padding: 15px;
+	font-size: 15px;
+	background-color:#76448a; 
+	color: #ffffff;
+	text-align: center;
+}
+
+strong {
+	color: orange;
+}
+
+.footer .link img{
+	padding-top: 10px;
+	width: 20px;
+    height: 20px;
+
+}
