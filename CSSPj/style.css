@@ -188,3 +188,73 @@ strong {
     height: 20px;
 
 }
+
+h2{
+	text-align: center;
+	padding: 10px;
+	}
+
+#about {
+	padding: 20px;
+	clear: both;
+	position: relative;
+	text-align: left;
+}
+
+.lang {
+	text-align: center;
+	padding: 20px;
+}
+
+.lang  p{
+	padding: 10px;
+	}
+
+.lang  a{
+	text-decoration: none;
+	}
+
+.aboutimg img{
+	margin-left: 35%;
+	clear: both;
+	width: 350px;
+	height: 250px;
+}
+
+.contact{
+	background-color: #c3f7c7;
+	height: 40%;
+	margin-top: 25px;
+	clear: both;
+}
+
+.contact #contactinfo {	
+	width: 40%;
+	float: left;
+	padding: 25px;
+	
+}
+
+.contact #comment {
+	
+	width: 40%;
+	float: left;
+	text-align: left;
+	padding: 25px;
+	
+}
+
+input[name="Email"]:focus {
+			background-color:#fbdfb6;
+		}
+
+.contact #inputemail {
+	padding: 10px;
+	margin-top: 15px;
+ 	margin-bottom: 15px;
+}
+
+.contact #sometext {
+	padding: 10px;
+	margin: 10px 0;
+}
